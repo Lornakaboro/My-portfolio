@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  width: 375px;
+  height: auto;
+  margin: 0;
+  font-family: Poppins, Arial, sans-serif;
+  background-color: #e5e5e5;
+}
+
+.header {
+  color: #396df2;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-bars {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.logo {
+  margin: 0;
+  padding: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+
+.info-box {
+  padding: 24px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 0;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.icon {
+  padding-right: 18px;
+}
+
+.intro-section {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 718px;
+}
