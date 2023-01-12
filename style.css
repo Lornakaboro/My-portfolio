@@ -26,7 +26,6 @@ body {
   margin: 0;
   padding: 20px;
   font-weight: 700;
-  font-style: bold;
   text-decoration: none;
   color: inherit;
 }
@@ -43,7 +42,6 @@ body {
   font-size: 45px;
   line-height: 52px;
   color: #172b4d;
-  vertical-align: center;
   margin: 0;
 }
 
