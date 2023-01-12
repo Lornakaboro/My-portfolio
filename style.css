@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-  width: 375px;
+  width: 100%;
   height: auto;
   margin: 0;
   font-family: Poppins, Arial, sans-serif;
@@ -75,4 +75,151 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 718px;
+}
+
+.my-works {
+  display: grid;
+  gap: 1rem;
+  margin: 24px;
+}
+
+.work {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  padding-bottom: 30px;
+}
+
+.work-image {
+  width: 100%;
+}
+
+.work-title {
+  margin: 0;
+  font-size: 45px;
+}
+
+.work-pointers {
+  display: flex;
+}
+
+.work-pointers-title {
+  font-weight: 700;
+  color: #344563;
+}
+
+.work-pointers-bullets {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  color: #7a869a;
+}
+
+.work-description {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.tag {
+  width: max-content;
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 4px 12px;
+  margin-right: 10px;
+}
+
+.project-link {
+  width: max-content;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  padding: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.project-link:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.about-box {
+  padding: 90px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+}
+
+.intro-button {
+  width: max-content;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.intro-button:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.intro-button:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 3px solid #f7f7f9;
+}
+
+.language-list {
+  padding: 0;
+}
+
+.language-item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: #f7f7f9;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.language-icon {
+  padding: 15px;
 }
