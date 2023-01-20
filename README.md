@@ -1,5 +1,4 @@
-# Microverse-portfolio
-# First-hello-microverse-project<a name="readme-top"></a>
+# Microverse-portfolio <a name="readme-top"></a>
 
 <!--
 HOW TO USE:
@@ -98,7 +97,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Mobile_version_of_my-portfolio]**
+- **[Mobile_&_desktop_version_of_my-portfolio]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +138,7 @@ Example command:
 Clone this repository to your desired folder:
 - use the git clone command with this [link](https://github.com/Lornakaboro/First-hello-microverse-project.git)
 - cd into First-hello-microverse-project
-- Switch branch using this command `git checkout create-mobile-menu`
+- Switch branch using this command `git checkout create-desktop-version`
 - Open index.html in your browser
 - You will be able to see a template with my name, a brief description and social media handles.
 
