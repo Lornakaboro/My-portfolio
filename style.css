@@ -189,6 +189,7 @@ body {
   padding: 12px;
   font-size: 17px;
   font-weight: 500;
+  animation: wiggle 2s linear infinite;
 }
 
 .intro-button:hover {
@@ -311,6 +312,7 @@ body {
   background-color: #fff;
   padding: 9px 20px;
   margin-bottom: 1rem;
+  animation: wiggle 2s linear infinite;
 }
 
 .contact-form-btn:hover {
@@ -326,6 +328,11 @@ body {
 .contact-form-btn:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
+}
+
+.animation {
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 @media only screen and (min-width: 768px) {
