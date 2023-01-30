@@ -72,21 +72,21 @@ After you're finished please remove all the comments and instructions!
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>CSS</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>JavaScript</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
@@ -97,7 +97,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Mobile_&_desktop_version_of_my-portfolio]**
+- Mobile & desktop version of my-portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +155,7 @@ Example commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **LornaKaboro**
 
 - GitHub: [@githubhandle](https://github.com/Lornakaboro)
 - Twitter: [@twitterhandle](https://twitter.com/KaboroLorna)
@@ -167,11 +167,9 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[personalized_webpage/portfolio]**
-- [ ] **[portfolio_with_direct_links_to_my_cv]**
-- [ ] **[more_interactive_web_page]**
+- [ ] personalized_webpage/portfolio
+- [ ] portfolio with direct links to my cv
+- [ ] more interactive web page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,7 +209,5 @@ I would like to thank:
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
