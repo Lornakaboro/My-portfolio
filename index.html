@@ -9,16 +9,25 @@
   <script src="https://kit.fontawesome.com/c6cb015206.js" crossorigin="anonymous"></script>
 <body>
 
-  <div class="intro-section">
+        <!-- drop down starts-->
+    <div class="dropdown-menu hidden-dropdown-menu" id="nav-dropdown-menu">
+        <i class="fa-regular fa-x dropdown-x-icon" id="nav-dropdown-x-icon" onclick="toggleMobileMenu()"></i>
+        <ul class="nav-dropdown">
+          <li class="nav-dropdown-item"><a class="nav-dropdown-item-link" href="#intro-section" onclick="openDropdownItem(this,'#introduction-section')">Portfolio</a></li>
+          <li class="nav-dropdown-item"><a class="nav-dropdown-item-link" href="#about-box" onclick="openDropdownItem(this, '#about-box')">About</a></li>
+          <li class="nav-dropdown-item"><a class="nav-dropdown-item-link" href="#contact" onclick="openDropdownItem(this, '#contact')">Contact</a></li>
+        </ul>
+  </div> 
+  <div class="intro-section" id="intro-section">
     <header class="header">
       <a href="" class="logo">Lorna Kaboro</a>
       <nav class="hamburger-icon">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa fa-bars" aria-hidden="true" id="hamburger-icon" onclick="toggleMobileMenu()"></i>
       </nav>
         <ul class="nav">
-          <li class="nav-item"><a href="!#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="!#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="!#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#intro-section" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#about-box" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </header>
     <section class="info-box animation">
@@ -257,7 +266,7 @@
           </div>
     </section>
 
-    <section class="about-box">
+    <section class="about-box" id="about-box">
       <div class="row">
        <div class="about-box-section">
            <h2 class="introduction">About <br>Myself</h2>
@@ -331,7 +340,7 @@
      </div>
      </section>
 
-      <section class="contact-form">
+      <section class="contact-form" id="contact">
         <h2 class="contact-form-heading">Contact me</h2>
         <p class="contact-form-description">If you have an application you are interested in developing, a feature that 
             you need built or a project that needs coding. I&#39;d love to help with it </p>
@@ -344,5 +353,6 @@
             <button type="submit" class=" contact-form-btn">Get in Touch</button>
         </form>
       </section>
+      <script src="./script.js"></script>
   </body>
   </html>
