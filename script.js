@@ -1,3 +1,5 @@
+/* eslint no-unused-vars: 0 */
+
 function toggleMobileMenu() {
     document
       .getElementById('nav-dropdown-menu')
