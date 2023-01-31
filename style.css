@@ -9,6 +9,55 @@ body {
   background-color: #e5e5e5;
 }
 
+/* For drop down menu */
+.dropdown-menu {
+  z-index: 10;
+  color: #fff;
+  background-color: #6070ff;
+  height: 110vh;
+  width: 100%;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  position: fixed;
+}
+
+.hidden-dropdown-menu {
+  display: none;
+}
+
+.nav-dropdown {
+  list-style: none;
+  margin-top: 15%;
+}
+
+.dropdown-x-icon {
+  float: right;
+  margin-right: 6.5%;
+  margin-top: 6.5%;
+}
+
+.nav-dropdown-item-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 62px;
+  gap: 30px;
+}
+
+.x-holder {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 48px 36px 0 0;
+}
+
+.x-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* For drop down menu */
+
 .header {
   color: #396df2;
   display: flex;
@@ -46,6 +95,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 779px;
+}
+
+.blur-intro-section {
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
 }
 
 .introduction {
@@ -146,7 +200,7 @@ body {
   width: max-content;
   border-radius: 8px;
   background-color: #ebebff;
-  color: #0659ff;
+  color: #6070ff;
   padding: 4px 12px;
   margin-right: 5px;
 }
@@ -245,7 +299,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-image: url("./images/contact-base.png");
+  background-image: url("/images/contact-base.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
@@ -343,12 +397,16 @@ body {
   }
 
   .intro-section {
-    background-image: url("./images/desktop-background.png");
+    background-image: url("./images/desktop-base.png");
     background-size: cover;
     height: 1000px;
   }
 
-  .hamburger-icon {
+  .dropdown-menu {
+    display: none;
+  }
+
+  #hamburger-icon {
     display: none;
   }
 
