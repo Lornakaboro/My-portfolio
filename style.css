@@ -11,7 +11,6 @@ body {
 
 /* For drop down menu */
 .dropdown-menu {
-  position: absolute;
   z-index: 10;
   color: #fff;
   background-color: #6070ff;
