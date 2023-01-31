@@ -18,6 +18,8 @@ body {
   height: 110vh;
   width: 100%;
   mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  position: fixed;
 }
 
 .hidden-dropdown-menu {
