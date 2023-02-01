@@ -264,7 +264,7 @@ body {
 .mobile-popup-links {
   display: flex;
   border-top: #ebecf0 solid 1px;
-  width: 353px;
+  height: 84px;
 }
 
 .mobile-popup-project-link {
