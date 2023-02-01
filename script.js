@@ -145,7 +145,6 @@ function openPopUp(index) {
   popup.innerHTML = data;
   popup.classList.remove('hide-mobile-popup');
 }
-
 // desktop
 const desktopPopUp = document.getElementById('desktop-popup');
 function closeDesktopPopUp() {
