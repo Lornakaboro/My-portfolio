@@ -289,4 +289,3 @@ function openDesktopPopUp(counter) {
   desktopPopUp.innerHTML = data;
   desktopPopUp.classList.remove('hide-desktop-popup');
 }
-
