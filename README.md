@@ -136,9 +136,9 @@ Example command:
 Clone this repository to your desired folder:
 - use the git clone command with this [link](https://github.com/Lornakaboro/First-hello-microverse-project.git)
 - cd into First-hello-microverse-project
-- Switch branch using this command `git checkout create-desktop-version`
+- Switch branch using this command `git checkout create-popup-modal`
 - Open index.html in your browser
-- You will be able to see a template with my name, a brief description and social media handles.
+- You will be able to see a template with my name, a brief description and social media handles,featured projects and a contact form.
 
 <!--
 Example commands:
