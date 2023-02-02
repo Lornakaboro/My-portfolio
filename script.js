@@ -12,12 +12,6 @@ function openDropdownItem(menuElement, menuLink) {
     .classList.toggle('hidden-dropdown-menu');
 }
 
-// for mobile
-const popup = document.getElementById('mobile-popup');
-
-function closePopUp() {
-  popup.classList.add('hide-mobile-popup');
-}
 
 const projectData = [
   {
@@ -31,6 +25,13 @@ const projectData = [
     pointersYear: '2015',
     linkToLiveVersion: '#!',
     linkToSource: '#!',
+    desktopName:'Tonic', 
+    desktopDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    desktopFeaturedImage: './images/tonic-desktop.png',
+    desktopPointersTitle: 'CANOPY',
+    desktopPointersLevel: 'Back End Dev',
+    desktopPointersYear: '2015',
+    desktopTechnologies: ['html', 'css', 'javascript'],
   },
   {
     name: 'Multi-Post Stories',
@@ -43,6 +44,14 @@ const projectData = [
     technologies: ['html', 'css', 'javascript'],
     linkToLiveVersion: '#!',
     linkToSource: '#!',
+    desktopName:'Multi-Post Stories',
+    desktopDescription:'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.', 
+    desktopFeaturedImage: './images/multi-post-stories-desktop.png',
+    desktopTechnologies: ['html', 'css', 'javascript'],
+    desktopPointersTitle: 'CANOPY',
+    desktopPointersLevel: 'Back End Dev',
+    desktopPointersYear: '2015',
+    desktopTechnologies: ['html', 'css', 'javascript'],
   },
   {
     name: 'Tonic',
@@ -55,6 +64,13 @@ const projectData = [
     technologies: ['html', 'css', 'javascript'],
     linkToLiveVersion: '#!',
     linkToSource: '#!',
+    desktopName:'Facebook 360',
+    desktopDescription:'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    desktopFeaturedImage:'./images/facebook.png',
+    desktopPointersTitle: 'FACEBOOK',
+    desktopPointersLevel: 'Full Stack Dev',
+    desktopPointersYear: '2015',
+    desktopTechnologies: ['html', 'css', 'javascript', 'Ruby on rails'],
   },
   {
     name: 'Multi-Post Stories',
@@ -67,8 +83,21 @@ const projectData = [
     technologies: ['html', 'css', 'javascript'],
     linkToLiveVersion: '#!',
     linkToSource: '#!',
+    desktopName:'Uber Navigation',
+    desktopDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    desktopFeaturedImage: './images/uber-navigation.png',
+    desktopPointersTitle: 'Uber',
+    desktopPointersLevel: 'Lead Developer',
+    desktopPointersYear: '2018',
+    desktopTechnologies: ['html', 'css', 'javascript', 'Ruby on rails'],
   },
 ];
+// for mobile
+const popup = document.getElementById('mobile-popup');
+
+function closePopUp() {
+  popup.classList.add('hide-mobile-popup');
+}
 
 function getTechnologies(technologies) {
   let tech = '';
@@ -145,69 +174,21 @@ function openPopUp(index) {
   popup.innerHTML = data;
   popup.classList.remove('hide-mobile-popup');
 }
+
 // desktop
 const desktopPopUp = document.getElementById('desktop-popup');
 function closeDesktopPopUp() {
   desktopPopUp.classList.add('hide-desktop-popup');
 }
-const desktopProjectData = [
-  {
-    name: 'Tonic',
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './images/tonic-desktop.png',
-    pointersTitle: 'CANOPY',
-    pointersLevel: 'Back End Dev',
-    pointersYear: '2015',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-  },
-  {
-    name: 'Multi-Post Stories',
-    description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    featuredImage: './images/multi-post-stories-desktop.png',
-    pointersTitle: 'FACEBOOK',
-    pointersLevel: 'Full Stack Dev',
-    pointersYear: '2015',
-    technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-  },
-  {
-    name: 'Facebook 360',
-    description:
-      'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    featuredImage: './images/facebook.png',
-    pointersTitle: 'FACEBOOK',
-    pointersLevel: 'Full Stack Dev',
-    pointersYear: '2015',
-    technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-  },
-  {
-    name: 'Uber Navigation',
-    description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    featuredImage: './images/uber-navigation.png',
-    pointersTitle: 'Uber',
-    pointersLevel: 'Lead Developer',
-    pointersYear: '2018',
-    technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-  },
-];
+
 function generateDesktopProjectData(projectList) {
   let data = '';
   for (let i = 0; i < projectList.length; i += 1) {
-    const currentProject = desktopProjectData[i];
+    const currentProject = projectData[i];
     let workReverse = '';
     let tech = '';
-    for (let j = 0; j < currentProject.technologies.length; j += 1) {
-      const currentTechnology = currentProject.technologies[j];
+    for (let j = 0; j < currentProject.desktopTechnologies.length; j += 1) {
+      const currentTechnology = currentProject.desktopTechnologies[j];
       tech += `<li class='tag'>${currentTechnology}</li>`;
     }
     if (i % 2 !== 0) {
@@ -215,17 +196,17 @@ function generateDesktopProjectData(projectList) {
     }
     data += `
             <div class='work ${workReverse}'>
-                <img src='${currentProject.featuredImage}' class='work-image' alt='image of a website hero-section'>
+                <img src='${currentProject.desktopFeaturedImage}' class='work-image' alt='image of a website hero-section'>
                 <div class='work-description-section'>
-                    <h2 class='work-title'>${currentProject.name}</h2>
+                    <h2 class='work-title'>${currentProject.desktopName}</h2>
                     <div class="work-pointers">
-                      <h3>${currentProject.pointersTitle}</h3>
+                      <h3>${currentProject.desktopPointersTitle}</h3>
                       <div class="work-pointers-bullets"></div>
-                      <p>${currentProject.pointersLevel}</p>
+                      <p>${currentProject.desktopPointersLevel}</p>
                       <div class="work-pointers-bullets"></div>
-                      <p>${currentProject.pointersYear}</p>
+                      <p>${currentProject.desktopPointersYear}</p>
                     </div>
-                    <p class='work-description'>${currentProject.description}</p>
+                    <p class='work-description'>${currentProject.desktopDescription}</p>
                     <ul class='tags'>
                         ${tech}
                     </ul>
@@ -238,11 +219,13 @@ function generateDesktopProjectData(projectList) {
   }
   return data;
 }
+
 document.querySelector('#desktop-works').innerHTML = generateDesktopProjectData(projectData);
+
 function openDesktopPopUp(counter) {
-  const currentProjectData = desktopProjectData[counter];
+  const currentProjectData = projectData[counter];
   const desktopTechnologies = getTechnologies(
-    desktopProjectData[counter].technologies,
+    projectData[counter].desktopTechnologies,
   );
   const data = `
     <div class='desktop-popup' >
@@ -251,16 +234,16 @@ function openDesktopPopUp(counter) {
         <i class='fa-regular fa-x desktop-dropdown-x-icon' onclick='closeDesktopPopUp()'></i>
         </div>
         <div class="work-pointers">
-          <h3>${currentProjectData.pointersTitle}</h3>
+          <h3>${currentProjectData.desktopPointersTitle}</h3>
           <div class="work-pointers-bullets"></div>
-          <p>${currentProjectData.pointersLevel}</p>
+          <p>${currentProjectData.desktopPointersLevel}</p>
           <div class="work-pointers-bullets"></div>
-          <p>${currentProjectData.pointersYear}</p>
+          <p>${currentProjectData.desktopPointersYear}</p>
       </div>
-      <img src='${currentProjectData.featuredImage}' class='desktop-popup-work-image' alt='image of a website hero-section'>
+      <img src='${currentProjectData.desktopFeaturedImage}' class='desktop-popup-work-image' alt='image of a website hero-section'>
         <div class='desktop-popup-description'>
             <div class='desktop-popup-work-description'>
-                <p>${currentProjectData.description}</p>
+                <p>${currentProjectData.desktopDescription}</p>
             </div>
             <div class='desktop-popup-items'>
                 <ul class=' desktop-popup-tags'>
