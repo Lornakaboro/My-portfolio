@@ -2,113 +2,112 @@
 
 function toggleMobileMenu() {
   document
-    .getElementById("nav-dropdown-menu")
-    .classList.toggle("hidden-dropdown-menu");
+    .getElementById('nav-dropdown-menu')
+    .classList.toggle('hidden-dropdown-menu');
 }
 
 function openDropdownItem(menuElement, menuLink) {
   document
-    .getElementById("nav-dropdown-menu")
-    .classList.toggle("hidden-dropdown-menu");
+    .getElementById('nav-dropdown-menu')
+    .classList.toggle('hidden-dropdown-menu');
 }
 
 const projectData = [
   {
-    name: "Tonic",
+    name: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    featuredImage: "./images/tonic-work.png",
-    technologies: ["html", "css", "javascript"],
-    pointersTitle: "CANOPY",
-    pointersLevel: "Back End Dev",
-    pointersYear: "2015",
-    linkToLiveVersion: "#!",
-    linkToSource: "#!",
-    desktopName: "Tonic",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './images/tonic-work.png',
+    technologies: ['html', 'css', 'javascript'],
+    pointersTitle: 'CANOPY',
+    pointersLevel: 'Back End Dev',
+    pointersYear: '2015',
+    linkToLiveVersion: '#!',
+    linkToSource: '#!',
+    desktopName: 'Tonic',
     desktopDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    desktopFeaturedImage: "./images/tonic-desktop.png",
-    desktopPointersTitle: "CANOPY",
-    desktopPointersLevel: "Back End Dev",
-    desktopPointersYear: "2015",
-    desktopTechnologies: ["html", "css", "javascript"],
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    desktopFeaturedImage: './images/tonic-desktop.png',
+    desktopPointersTitle: 'CANOPY',
+    desktopPointersLevel: 'Back End Dev',
+    desktopPointersYear: '2015',
+    desktopTechnologies: ['html', 'css', 'javascript'],
   },
   {
-    name: "Multi-Post Stories",
+    name: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    featuredImage: "./images/multi-post-stories.png",
-    pointersTitle: "CANOPY",
-    pointersLevel: "Back End Dev",
-    pointersYear: "2015",
-    technologies: ["html", "css", "javascript"],
-    linkToLiveVersion: "#!",
-    linkToSource: "#!",
-    desktopName: "Multi-Post Stories",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './images/multi-post-stories.png',
+    pointersTitle: 'CANOPY',
+    pointersLevel: 'Back End Dev',
+    pointersYear: '2015',
+    technologies: ['html', 'css', 'javascript'],
+    linkToLiveVersion: '#!',
+    linkToSource: '#!',
+    desktopName: 'Multi-Post Stories',
     desktopDescription:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    desktopFeaturedImage: "./images/multi-post-stories-desktop.png",
-    desktopTechnologies: ["html", "css", "javascript"],
-    desktopPointersTitle: "CANOPY",
-    desktopPointersLevel: "Back End Dev",
-    desktopPointersYear: "2015",
-    desktopTechnologies: ["html", "css", "javascript"],
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    desktopFeaturedImage: './images/multi-post-stories-desktop.png',
+    desktopPointersTitle: 'CANOPY',
+    desktopPointersLevel: 'Back End Dev',
+    desktopPointersYear: '2015',
+    desktopTechnologies: ['html', 'css', 'javascript'],
   },
   {
-    name: "Tonic",
+    name: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    featuredImage: "./images/tonic-work2.png",
-    pointersTitle: "CANOPY",
-    pointersLevel: "Back End Dev",
-    pointersYear: "2015",
-    technologies: ["html", "css", "javascript"],
-    linkToLiveVersion: "#!",
-    linkToSource: "#!",
-    desktopName: "Facebook 360",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './images/tonic-work2.png',
+    pointersTitle: 'CANOPY',
+    pointersLevel: 'Back End Dev',
+    pointersYear: '2015',
+    technologies: ['html', 'css', 'javascript'],
+    linkToLiveVersion: '#!',
+    linkToSource: '#!',
+    desktopName: 'Facebook 360',
     desktopDescription:
-      "Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    desktopFeaturedImage: "./images/facebook.png",
-    desktopPointersTitle: "FACEBOOK",
-    desktopPointersLevel: "Full Stack Dev",
-    desktopPointersYear: "2015",
-    desktopTechnologies: ["html", "css", "javascript", "Ruby on rails"],
+      'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    desktopFeaturedImage: './images/facebook.png',
+    desktopPointersTitle: 'FACEBOOK',
+    desktopPointersLevel: 'Full Stack Dev',
+    desktopPointersYear: '2015',
+    desktopTechnologies: ['html', 'css', 'javascript', 'Ruby on rails'],
   },
   {
-    name: "Multi-Post Stories",
+    name: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    featuredImage: "./images/multi-post-stories2.png",
-    pointersTitle: "CANOPY",
-    pointersLevel: "Back End Dev",
-    pointersYear: "2015",
-    technologies: ["html", "css", "javascript"],
-    linkToLiveVersion: "#!",
-    linkToSource: "#!",
-    desktopName: "Uber Navigation",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './images/multi-post-stories2.png',
+    pointersTitle: 'CANOPY',
+    pointersLevel: 'Back End Dev',
+    pointersYear: '2015',
+    technologies: ['html', 'css', 'javascript'],
+    linkToLiveVersion: '#!',
+    linkToSource: '#!',
+    desktopName: 'Uber Navigation',
     desktopDescription:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    desktopFeaturedImage: "./images/uber-navigation.png",
-    desktopPointersTitle: "Uber",
-    desktopPointersLevel: "Lead Developer",
-    desktopPointersYear: "2018",
-    desktopTechnologies: ["html", "css", "javascript", "Ruby on rails"],
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    desktopFeaturedImage: './images/uber-navigation.png',
+    desktopPointersTitle: 'Uber',
+    desktopPointersLevel: 'Lead Developer',
+    desktopPointersYear: '2018',
+    desktopTechnologies: ['html', 'css', 'javascript', 'Ruby on rails'],
   },
 ];
 // for mobile
-const popup = document.getElementById("mobile-popup");
+const popup = document.getElementById('mobile-popup');
 
 function closePopUp() {
-  popup.classList.add("hide-mobile-popup");
+  popup.classList.add('hide-mobile-popup');
 }
 // desktop
-const desktopPopUp = document.getElementById("desktop-popup");
+const desktopPopUp = document.getElementById('desktop-popup');
 function closeDesktopPopUp() {
-  desktopPopUp.classList.add("hide-desktop-popup");
+  desktopPopUp.classList.add('hide-desktop-popup');
 }
 
 function getTechnologies(technologies) {
-  let tech = "";
+  let tech = '';
   for (let i = 0; i < technologies.length; i += 1) {
     const currentTechnology = technologies[i];
     tech += `<li class='tag'>${currentTechnology}</li>`;
@@ -117,9 +116,9 @@ function getTechnologies(technologies) {
 }
 
 function generateProjectData(projectList, platform) {
-  let data = "";
+  let data = '';
 
-  if (platform === "mobile") {
+  if (platform === 'mobile') {
     for (let i = 0; i < projectList.length; i += 1) {
       const currentProject = projectData[i];
       const technologies = getTechnologies(currentProject.technologies);
@@ -145,17 +144,17 @@ function generateProjectData(projectList, platform) {
           `;
     }
   }
-  if (platform === "desktop") {
+  if (platform === 'desktop') {
     for (let i = 0; i < projectList.length; i += 1) {
       const currentProject = projectData[i];
-      let workReverse = "";
-      let tech = "";
+      let workReverse = '';
+      let tech = '';
       for (let j = 0; j < currentProject.desktopTechnologies.length; j += 1) {
         const currentTechnology = currentProject.desktopTechnologies[j];
         tech += `<li class='tag'>${currentTechnology}</li>`;
       }
       if (i % 2 !== 0) {
-        workReverse = "work-reverse";
+        workReverse = 'work-reverse';
       }
       data += `
               <div class='work ${workReverse}'>
@@ -184,13 +183,13 @@ function generateProjectData(projectList, platform) {
   return data;
 }
 
-document.getElementById("mobile-works").innerHTML = generateProjectData(
+document.getElementById('mobile-works').innerHTML = generateProjectData(
   projectData,
-  "mobile"
+  'mobile',
 );
 
 function openPopUp(index, screen) {
-  if (screen === "mobile") {
+  if (screen === 'mobile') {
     const technologiesUsed = getTechnologies(projectData[index].technologies);
     const data = `
       <div class='work'>
@@ -223,12 +222,12 @@ function openPopUp(index, screen) {
       </div>
       `;
     popup.innerHTML = data;
-    popup.classList.remove("hide-mobile-popup");
+    popup.classList.remove('hide-mobile-popup');
   }
-  if (screen === "desktop") {
+  if (screen === 'desktop') {
     const currentProjectData = projectData[index];
     const desktopTechnologies = getTechnologies(
-      projectData[index].desktopTechnologies
+      projectData[index].desktopTechnologies,
     );
     const data = `
       <div class='desktop-popup' >
@@ -265,11 +264,11 @@ function openPopUp(index, screen) {
       </div>
       `;
     desktopPopUp.innerHTML = data;
-    desktopPopUp.classList.remove("hide-desktop-popup");
+    desktopPopUp.classList.remove('hide-desktop-popup');
   }
 }
 
-document.querySelector("#desktop-works").innerHTML = generateProjectData(
+document.querySelector('#desktop-works').innerHTML = generateProjectData(
   projectData,
-  "desktop"
+  'desktop',
 );
