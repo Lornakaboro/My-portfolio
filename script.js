@@ -10,7 +10,6 @@ function openDropdownItem(menuElement, menuLink) {
   document
     .getElementById('nav-dropdown-menu')
     .classList.toggle('hidden-dropdown-menu');
-}
 
 const projectData = [
   {
@@ -267,20 +266,31 @@ function openPopUp(index, screen) {
     desktopPopUp.classList.remove('hide-desktop-popup');
   }
 }
+document.querySelector('#desktop-works').innerHTML = generateProjectData(
+  projectData,
+  'desktop',
+);
 // form validation
 
 const form = document.getElementById('contact-form-content');
 const email = document.getElementById('contact-form-email');
 const errormsg = document.getElementById('contact-form-error');
+const message = document.getElementById('contact-form-message');
+const userName = document.getElementById('contact-form-username')
+
 
 form.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     errormsg.style.display = 'block';
     e.preventDefault();
   }
+  localStorage.setItem("contact-form-username", userName.value);
+  localStorage.setItem("contact-form-email", email.value);
+  localStorage.setItem("contact-form-message", message.value);
 });
 
-document.querySelector('#desktop-works').innerHTML = generateProjectData(
-  projectData,
-  'desktop',
-);
+userName.value = localStorage.getItem("contact-form-username");
+email.value = localStorage.getItem("contact-form-email");
+message.value = localStorage.getItem("contact-form-message");
+
+
