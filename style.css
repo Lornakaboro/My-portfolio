@@ -453,6 +453,11 @@ body {
   color: #5e6c84;
 }
 
+.contact-form-error {
+  display: none;
+  color: red;
+}
+
 .animation {
   animation-duration: 3s;
   animation-name: slidein;
