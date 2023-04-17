@@ -1,4 +1,4 @@
-# Microverse-portfolio <a name="readme-top"></a>
+# My-portfolio <a name="readme-top"></a>
 
 <!--
 HOW TO USE:
@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse-Portfolio] <a name="about-project"></a>
+# 📖 [My-Portfolio] <a name="about-project"></a>
 
 > My name is Lorna and this is my portfolio aimed at showcasing my accomplishments, skills and educational background
 
