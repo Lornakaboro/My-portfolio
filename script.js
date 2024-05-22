@@ -14,84 +14,85 @@ function openDropdownItem(menuElement, menuLink) {
 
 const projectData = [
   {
-    name: 'Tonic',
+    name: 'Veteran Mission Hospitals',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'A website for Veteran Mission Hospitals, a hospital based in Syokimau, to help them reach their customers.',
     featuredImage: './images/tonic-work.png',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['Wordpress', 'css', 'php'],
     pointersTitle: 'CANOPY',
     pointersLevel: 'Back End Dev',
-    pointersYear: '2015',
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-    desktopName: 'Tonic',
+    pointersYear: '2023',
+    linkToLiveVersion: 'https://www.veteranmissionhospitals.org/',
+    linkToSource: 'https://github.com/Lornakaboro',
+    desktopName: 'Veteran Mission Hospitals',
     desktopDescription:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    desktopFeaturedImage: './images/tonic-desktop.png',
-    desktopPointersTitle: 'CANOPY',
+      'A website for Veteran Mission Hospitals, a hospital based in Syokimau, to help them reach their customers.',
+    desktopFeaturedImage: './images/veteran-website.png',
+    desktopPointersTitle: 'Wordpress',
     desktopPointersLevel: 'Back End Dev',
-    desktopPointersYear: '2015',
-    desktopTechnologies: ['html', 'css', 'javascript'],
+    desktopPointersYear: '2023',
+    desktopTechnologies: ['Wordpress', 'css', 'php'],
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Ietc Website',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './images/multi-post-stories.png',
-    pointersTitle: 'CANOPY',
+      'Inclusive Edge Training and Consultancy Company is a comprehensive and accessible training solutions consultancy and Research provider.',
+    featuredImage: './images/ietc-website.png',
+    pointersTitle: 'Wordpress',
     pointersLevel: 'Back End Dev',
-    pointersYear: '2015',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-    desktopName: 'Multi-Post Stories',
+    pointersYear: '2023',
+    technologies: ['Wordpress', 'css', 'php'],
+    linkToLiveVersion: 'https://www.ietc.co.ke/',
+    linkToSource: 'https://github.com/Lornakaboro',
+    linkToSource: '',
+    desktopName: 'Ietc Website',
     desktopDescription:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    desktopFeaturedImage: './images/multi-post-stories-desktop.png',
-    desktopPointersTitle: 'CANOPY',
+      'Inclusive Edge Training and Consultancy Company is a comprehensive and accessible training solutions consultancy and Research provider.',
+    desktopFeaturedImage: './images/ietc-website.png',
+    desktopPointersTitle: 'Wordpress',
     desktopPointersLevel: 'Back End Dev',
-    desktopPointersYear: '2015',
-    desktopTechnologies: ['html', 'css', 'javascript'],
+    desktopPointersYear: '2023',
+    desktopTechnologies: ['Wordpress', 'css', 'php'],
   },
   {
-    name: 'Tonic',
+    name: 'Wadada Website',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './images/tonic-work2.png',
-    pointersTitle: 'CANOPY',
+      'A website for an organization that empowers women by promoting sisterhood and mentorship',
+    featuredImage: './images/wadada-website.png',
+    pointersTitle: 'Wordpress',
     pointersLevel: 'Back End Dev',
-    pointersYear: '2015',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-    desktopName: 'Facebook 360',
+    pointersYear: '2023',
+    technologies: ['Wordpress', 'css', 'php'],
+    linkToLiveVersion: 'https://wadadakupitiliza.or.ke/',
+    linkToSource: 'https://github.com/Lornakaboro',
+    desktopName: 'Wadada Website',
     desktopDescription:
-      'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    desktopFeaturedImage: './images/facebook.png',
+      ' A website for an organization that empowers women by promoting sisterhood and mentorship',
+    desktopFeaturedImage: './images/wadada-website.png',
     desktopPointersTitle: 'FACEBOOK',
-    desktopPointersLevel: 'Full Stack Dev',
-    desktopPointersYear: '2015',
-    desktopTechnologies: ['html', 'css', 'javascript', 'Ruby on rails'],
+    desktopPointersLevel: 'Lead Developer',
+    desktopPointersYear: '2023',
+    desktopTechnologies: ['Wordpress', 'css', 'php', 'Ruby on rails'],
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Prow Website',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './images/multi-post-stories2.png',
-    pointersTitle: 'CANOPY',
-    pointersLevel: 'Back End Dev',
-    pointersYear: '2015',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#!',
-    linkToSource: '#!',
-    desktopName: 'Uber Navigation',
+      'Prow Advocates: A sleek, user-friendly legal website showcasing comprehensive services and easy client navigation.',
+    featuredImage: './images/prow-website.png',
+    pointersTitle: 'Wordpress',
+    pointersLevel: 'Lead Developer',
+    pointersYear: '2024',
+    technologies: ['Wordpress', 'css', 'php'],
+    linkToLiveVersion: 'https://prow.co.ke/',
+    linkToSource: 'https://github.com/Lornakaboro',
+    desktopName: 'Prow Website',
     desktopDescription:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    desktopFeaturedImage: './images/uber-navigation.png',
+      'Prow Advocates: A sleek, user-friendly legal website showcasing comprehensive services and easy client navigation',
+    desktopFeaturedImage: './images/prow-website.png',
     desktopPointersTitle: 'Uber',
     desktopPointersLevel: 'Lead Developer',
-    desktopPointersYear: '2018',
-    desktopTechnologies: ['html', 'css', 'javascript', 'Ruby on rails'],
+    desktopPointersYear: '2024',
+    desktopTechnologies: ['Wordpress', 'css', 'php', 'Ruby on rails'],
   },
 ];
 // for mobile
@@ -131,7 +132,7 @@ function generateProjectData(projectList, platform) {
                     <div class="work-pointers-bullets"></div>
                     <p>Back End Dev</p>
                     <div class="work-pointers-bullets"></div>
-                  <p>2015</p>
+                  <p>2023</p>
                   </div>
                   <p class='work-description'>${currentProject.description}</p>
                   <ul class='tags'>
@@ -202,7 +203,7 @@ function openPopUp(index, screen) {
             <div class="work-pointers-bullets"></div>
             <p>Back End Dev</p>
             <div class="work-pointers-bullets"></div>
-            <p>2015</p>
+            <p>2023</p>
           </div>
           <img src='${projectData[index].featuredImage}' class='work-image' alt='image of a lady doing yoga'>
           <p class='work-description'>${projectData[index].description}</p>
