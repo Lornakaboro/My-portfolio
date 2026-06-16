@@ -27,7 +27,7 @@ const projectData = [
     desktopName: 'Veteran Mission Hospitals',
     desktopDescription:
       'A website for Veteran Mission Hospitals, a hospital based in Syokimau, to help them reach their customers.',
-    desktopFeaturedImage: './images/veteran-website.png',
+    desktopFeaturedImage: './images/veteran-website.PNG',
     desktopPointersTitle: 'Wordpress',
     desktopPointersLevel: 'Back End Dev',
     desktopPointersYear: '2023',
@@ -68,7 +68,7 @@ const projectData = [
     desktopName: 'Wadada Website',
     desktopDescription:
       ' A website for an organization that empowers women by promoting sisterhood and mentorship',
-    desktopFeaturedImage: './images/wadada-website.png',
+    desktopFeaturedImage: './images/wadada-website.PNG',
     desktopPointersTitle: 'FACEBOOK',
     desktopPointersLevel: 'Lead Developer',
     desktopPointersYear: '2023',
@@ -88,7 +88,7 @@ const projectData = [
     desktopName: 'Prow Website',
     desktopDescription:
       'Prow Advocates: A sleek, user-friendly legal website showcasing comprehensive services and easy client navigation',
-    desktopFeaturedImage: './images/prow-website.png',
+    desktopFeaturedImage: './images/prow-website.PNG',
     desktopPointersTitle: 'Uber',
     desktopPointersLevel: 'Lead Developer',
     desktopPointersYear: '2024',
@@ -294,5 +294,3 @@ form.addEventListener('submit', (e) => {
 userName.value = localStorage.getItem("contact-form-username");
 email.value = localStorage.getItem("contact-form-email");
 message.value = localStorage.getItem("contact-form-message");
-
-
