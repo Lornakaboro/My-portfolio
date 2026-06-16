@@ -37,7 +37,7 @@ const projectData = [
     name: 'Ietc Website',
     description:
       'Inclusive Edge Training and Consultancy Company is a comprehensive and accessible training solutions consultancy and Research provider.',
-    featuredImage: './images/ietc-website.png',
+    featuredImage: './images/ietc-website.PNG',
     pointersTitle: 'Wordpress',
     pointersLevel: 'Back End Dev',
     pointersYear: '2023',
